@@ -144,3 +144,65 @@ body {
     font-size: 0.9rem;
     padding-top: 20px;
 }
+
+@media (max-width: 990px) {
+
+    .main-container {
+        width: 100%;
+        padding: 0;
+        padding-top: 1rem;
+    }
+
+    .text-review {
+        display: flex;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        margin: auto;
+        width: 100%;
+    }
+
+    .title, .subtitle {
+        width: 60%;
+    }
+
+    .subtitle {
+        padding-top: 1rem;
+    }
+
+    .review {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 11rem;
+        margin: auto;
+        width: 100%;
+    }
+
+    .review-1, .review-2, .review-3 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 3rem;
+    }
+
+    .star, .rate {
+        padding-top: 0;
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        height: 38rem;
+        margin: auto;
+        width: 100%;
+    }
+}
