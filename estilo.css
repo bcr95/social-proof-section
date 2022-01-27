@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    
+}
+
+.content-1 {
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+}
+
+.propaganda {
+    width: 40%;
+}
+
+.rating {
+    width: 40%;
+}
+
+.content-2 {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-1, .card-2, .card-3 {
+    width: 300px;
+    height: 200px;
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.colton, .irene, .anne {
+    border-radius: 50%;
+}
+
+p {
+    font-size: 15px;
+}
